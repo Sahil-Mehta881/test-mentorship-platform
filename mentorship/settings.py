@@ -25,7 +25,7 @@ SECRET_KEY = 'v)#j@zr_iq#sa*!*fe9mqdg63kn!a@7mz*rd%a2qqt63^4^ry2'
 DEBUG = False
 # DEBUG = True
 
-ALLOWED_HOSTS = ['serene-hollows-01609.herokuapp']
+ALLOWED_HOSTS = ['test-881.herokuapp.com']
 
 
 # Application definition
@@ -81,10 +81,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': 'dj5bsek9cof1n',
-        'USER': 'avrdjrlbnmnrdv',
-        'PASSWORD': '7b7d6bd6ea7bd2fb486d8ea2b8c77163ff8e14ee6844029bc8180dae160f544b',
-        'HOST': 'ec2-34-225-162-157.compute-1.amazonaws.com',
+        'NAME': 'd7q5dauhuk3gau',
+        'USER': 'csxyzhzbezefqo',
+        'PASSWORD': '72b9ecf457a00a6687229444ebb2565d267721f96baf90d5cfaa6eb4460be863',
+        'HOST': 'ec2-34-202-88-122.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -127,3 +127,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
