@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'v)#j@zr_iq#sa*!*fe9mqdg63kn!a@7mz*rd%a2qqt63^4^ry2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['serene-hollows-01609.herokuapp']
 
 
 # Application definition
