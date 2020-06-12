@@ -1,0 +1,16 @@
+<h1>Mentor Listing</h1>
+
+<form action="{% url 'mentor_listing' %}" method="post">
+  {% csrf_token %}
+  {{ searchMentorForm }}
+  <input type="submit" value="Search">
+</form>
+
+
+{% for mentor in object_list %}
+
+  {{ mentor.name }}
+  <img src = {{ mentor.photo_url }}>
+  <br></br>
+
+{% endfor %}

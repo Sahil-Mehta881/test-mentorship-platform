@@ -1,0 +1,9 @@
+<h1>Feedback Request Form</h1>
+
+<h2> {{ note }} </h2>
+
+<form enctype="multipart/form-data" action="{% url 'dashboard' %}" method="post">
+  {% csrf_token %}
+  {{ requestform }}
+  <input type="submit" value="Submit Feedback Request">
+</form>
