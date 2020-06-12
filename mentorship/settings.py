@@ -28,6 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['serene-hollows-01609.herokuapp']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
