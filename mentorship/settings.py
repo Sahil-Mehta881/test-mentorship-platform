@@ -81,11 +81,11 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': 'mentorshipdb',
-        'USER': 'postgres',
-        'PASSWORD': '#gostartups',
-        'HOST': 'localhost',
-        'PORT': '5000',
+        'NAME': 'dj5bsek9cof1n',
+        'USER': 'avrdjrlbnmnrdv',
+        'PASSWORD': '7b7d6bd6ea7bd2fb486d8ea2b8c77163ff8e14ee6844029bc8180dae160f544b',
+        'HOST': 'ec2-34-225-162-157.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
